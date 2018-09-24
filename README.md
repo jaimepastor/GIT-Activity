@@ -19,7 +19,7 @@ def make_triangle(size):
     pass
 ```
 
-the main method would ask them of the shape then depending on the shape, should ask for extra parameters
+the main method would ask them of the shape then depending on the shape
 ```
 Hello, please enter what to print
 1       square
@@ -27,7 +27,7 @@ Hello, please enter what to print
 3       triangle
 Input:
 ```
-The input for the shape and extra parameters are already given so given the shape, it should print in these following patterns:
+The input for the shape and extra parameters are already given so given the shape, it would ask for the parameters should print in these following patterns:
 
 ## Square
 given an input **size** the method should print a square  in sizexsize
