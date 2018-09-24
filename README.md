@@ -68,3 +68,22 @@ Input size: 5
 .*******.
 *********
 ```
+Some additional functions you may need to know:
+Inputs are written in main() and output should be written in their respective methods
+There is actually no need to change the main method anymore
+
+the **range(x, y)** method returns you a list from x to y exclusive of y
+for example
+```python
+range(4, 12)
+##this returns you a list of [4,5,6,7,8,9,10,11]
+```
+the **input('string')**  the input would print the string  parameter and returns you a string from the input of the user
+for example
+```python
+input('enter your name:')
+##this would print 'enter your name:' and wait for the input of the user
+##if the user inputs something like this 'enter your name: John' it returns to you the string John
+```
+
+More python knowledge you need to know to complete this activity: [conditions](https://www.w3schools.com/python/python_conditions.asp) and [loops](https://www.w3schools.com/python/python_for_loops.asp)
