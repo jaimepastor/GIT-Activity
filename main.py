@@ -6,7 +6,6 @@ def make_rectangle(length, width):
 
 def make_triangle(size):
     pass
-
 def main():
     print('Hello, please enter what to print')
     print('1\tsquare')
@@ -14,10 +13,14 @@ def main():
     print('3\ttriangle')
     shape = (int)(input('Input: '))
     if(shape == 1):
-        make_sqaure()
+        size = (int)(input('Input size:'))
+        make_sqaure(size)
     elif(shape == 2):
-        make_rectangle()
+        length = (int)(input('Input length: '))
+        width = (int)(input('Input width: '))
+        make_rectangle(length, width)
     elif(shape == 3):
-        make_triangle()
+        size = (int)(input('Input size: '))
+        make_triangle(size)
 
 main()
