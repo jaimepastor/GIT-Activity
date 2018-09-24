@@ -1,10 +1,10 @@
-def make_sqaure():
+def make_sqaure(size):
     pass
 
-def make_rectangle():
+def make_rectangle(length, width):
     pass
 
-def make_triangle():
+def make_triangle(size):
     pass
 
 def main():
