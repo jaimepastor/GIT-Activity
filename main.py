@@ -1,5 +1,8 @@
 def make_sqaure(size):
-    pass
+    for n in range(size):
+        for m in range(size):
+        print("*", c = " ")
+    print('\n')
 
 def make_rectangle(length, width):
     x = ""
