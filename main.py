@@ -9,7 +9,14 @@ def make_rectangle(length, width):
         print(x)
 
 def make_triangle(size):
-    pass
+    for i in range(size):
+        for j in range(size * 2 - 1):
+            if(j >= ((size * 2 - 1) // 2 - i) and j <= ((size * 2 - 1) // 2 + i)):
+                print("*", end="")
+            else:
+                print(".",end="")
+        print("")
+
 
 def main():
     while(True):
