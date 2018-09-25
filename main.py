@@ -2,7 +2,10 @@ def make_sqaure(size):
     pass
 
 def make_rectangle(length, width):
-    pass
+    for i in range(width):
+        for j in range(length):
+            print('*', end = " ")
+        print('\n')
 
 def make_triangle(size):
     pass
@@ -16,7 +19,7 @@ def main():
         shape = (int)(input('Input: '))
         if(shape == 1):
             size = (int)(input('Input size:'))
-            make_sqaure(size)
+            make_square(size)
         elif(shape == 2):
             length = (int)(input('Input length: '))
             width = (int)(input('Input width: '))
